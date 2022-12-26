@@ -13,7 +13,7 @@ addButton.addEventListener("click", function() {
 
   
     const iframe = document.createElement("iframe");
-    iframe.src = "link";
+    iframe.src = link;
     iframe.style.width = "640px";
     iframe.style.height = "360px";
     container.appendChild(iframe);
